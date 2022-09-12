@@ -42,6 +42,14 @@ public class IntroLab {
      */
 
     /**
+     * An example method that calls on printLabMessage with utorID.
+     */
+    public static String ditianqu() {
+        return printLabMessage("Hello", "ditianqu", true,
+                "Welcome to CSC207!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,8 +67,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(ditianqu());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
